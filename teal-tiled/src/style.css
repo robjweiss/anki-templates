@@ -1,0 +1,79 @@
+.card {
+	text-align: center;
+	color: White;
+	background: url(_bg.jpg);
+}
+
+.front {
+	background-color: #18adab;
+	border-radius: 7px;
+	color: #fff;
+	font-family: NotoSansJP-Regular;
+	font-size: 50px;
+	position: relative;
+	left: 0;
+	padding: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.back {
+	position: relative;
+	top: -3px;
+	background-color: #fff;
+	padding: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 0px 0px 10px 10px;
+	color: #016ea6;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.definition {
+	font-family: Raleway-Regular;
+	font-size: 15px;
+	font-style: italic;
+	color: #18adab;
+}
+
+.sentence-ja {
+	font-family: NotoSansJP-Regular;
+	font-size: 25px;
+}
+
+
+b, strong {
+	font-weight: normal;
+	border-bottom: 1px dotted;
+	color: #27a2e5;
+}
+	
+
+
+/* Pop Furi */
+ruby rt {
+	opacity: 0;
+	transition: opacity .2s ease-in-out;
+}
+ 
+ruby:hover rt {
+ 	opacity: 1;
+}
+
+
+/* Fonts */
+@font-face {
+	font-family: NotoSansJP-Regular;
+	src: url('_NotoSansJP-Regular.otf');
+}
+
+@font-face {
+	font-family: Raleway-Regular;
+	src: url('_Raleway-Regular.ttf');
+}
